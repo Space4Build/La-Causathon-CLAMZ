@@ -1,0 +1,121 @@
+/* Home.css */
+
+.home-container {
+    position: relative;
+    background-color: #000000;
+    min-height: 100vh; /* Asegura que el fondo cubra toda la pantalla */
+    padding: 20px;
+  }
+  
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+  
+  .floating-box {
+    position: absolute; /* Posicionamiento absoluto */
+    top: -70px;         /* 30 píxeles desde la parte superior */
+    left: 200px;        /* 30 píxeles desde la parte izquierda */
+    width: 900px;      /* Ancho de la caja */
+    height: 700px;     /* Altura de la caja */
+    background-color: rgb(255, 255, 255); /* Color de fondo */
+    border: 1px solid black;     /* Borde */
+    text-align: left; 
+  }
+  
+  .assistants {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+  .assistant {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-bottom: 0px;
+    margin-left: 50px;
+  }
+  
+  .circle {
+    width: 300px; /* Tamaño del círculo aumentado */
+    height: 300px; /* Tamaño del círculo aumentado */
+    border-radius: 100%;
+    background-color: red; /* Default color */
+    margin-bottom: 1px;
+  }
+  
+  .assistant h3 {
+    margin: 10px 0 5px;
+  }
+  
+  .assistant p {
+    margin: 0;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .buttons button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  
+  .red-button {
+    background-color: red;
+    color: white;
+  }
+  
+  .green-button {
+    background-color: green;
+    color: white;
+  }
+  
+  .yellow-button {
+    background-color: yellow;
+    color: black;
+    align-items: center;
+  }
+  
+  .yellow1-button {
+    background-color: yellow;
+    color: black;
+  }
+  
+  .task-manager {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 300px;
+    height: 100vh;
+    border-left: 1px solid #ccc;
+    background-color: white;
+    box-shadow: -2px 0 5px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .task-manager .chat-bar {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .task-manager h2 {
+    padding: 10px;
+    border-bottom: 1px solid #000000;
+    background-color: #000000;
+    text-align: center;
+  }
+  
